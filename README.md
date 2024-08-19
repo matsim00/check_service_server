@@ -2,7 +2,15 @@
 
 Sono una serie di script che partono in sequenza per monitorare il corretto funzionamenti dei servizi dei server
 
-Sequenza:
+requisiti:
+
+- devono essere server linux
+- tutti i server devono avere una share condivisa in comune (vedi nfs)
+- in questo caso viene utilizzato una componente della suite di SAS per l'invio mail (in alternativa bisogna configurare un server mail, vedi uno scripot di esempio nel file sendmail_esempio.txt)
+
+
+
+Sequenza e spiegazione script:
 
 - /nfs_share/script/monitoring/check_server.sh ---> deve essere eseguito da ogni macchina ---> fa lo status dei servizi di ogni macchina
 
