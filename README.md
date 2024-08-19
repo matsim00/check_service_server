@@ -6,7 +6,7 @@ Sequenza:
 
 - /nfs_share/script/monitoring/check_server.sh ---> deve essere eseguito da ogni macchina ---> fa lo status dei servizi di ogni macchina
 
-- /nfs_share/script/monitoring/esito_check_server.sh ---> deve essere eseguito da una sola macchina ---> fa l'esito OK o KO dello status dei servizi
+- /nfs_share/script/monitoring/esito_check_server.sh ---> deve essere eseguito da una sola macchina ---> stampa l'esito su un file di testo con OK o KO dello status dei servizi
 
 - /nfs_share/script/monitoring/check_server_KO.sh ---> check sul file stampato dallo script esito_check_server.sh 
 
