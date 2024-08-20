@@ -1,4 +1,4 @@
-# service_status_locale
+# check_service_server
 
 Sono una serie di script che partono in sequenza per monitorare il corretto funzionamenti dei servizi dei server
 
