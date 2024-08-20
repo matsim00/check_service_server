@@ -6,7 +6,7 @@ requisiti:
 
 - devono essere server linux
 - tutti i server devono avere una share condivisa in comune (vedi nfs)
-- in questo caso viene utilizzato una componente della suite di SAS per l'invio mail (in alternativa bisogna configurare un server mail, vedi uno scripot di esempio nel file sendmail_esempio.txt)
+- in questo caso viene utilizzato una componente della suite di SAS per l'invio mail (in alternativa bisogna configurare un server mail, vedi uno script di esempio nel file sendmail_esempio.txt)
 
 
 
