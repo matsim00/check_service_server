@@ -10,6 +10,7 @@ requisiti:
 
 
 
+
 Sequenza e spiegazione script:
 
 - /nfs_share/script/monitoring/check_server.sh ---> deve essere eseguito da ogni macchina ---> fa lo status dei servizi di ogni macchina
