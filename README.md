@@ -25,4 +25,4 @@ Sequenza e spiegazione script:
 
 - /nfs_share/script/monitoring/invio_mail_check_FM.sas ---> script configurazione mail
 
-- /nfs_share/script/monitoring/svecchiamento_file_check.sh ---> svecchiamento file check,  lascia 1 giorno di retention
+- /nfs_share/script/monitoring/svecchiamento_file_check.sh ---> svecchiamento file check,  lascia in questo caso 3 giorni di retention
