@@ -3,7 +3,7 @@
 #SVECCHIAMENTO CHECK FILE
 
 #Specifica la retention in giorni(verranno cancellati i file di n° giorni prima)
-range_date="5"
+range_date="3"
 
 dir1="/nfs_share/output_monitoring/"
 
