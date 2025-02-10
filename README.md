@@ -38,9 +38,9 @@ Questo è un insieme di script che vengono eseguiti in sequenza per monitorare i
 
 Per la schedulazione degli script, ho configurato i seguenti intervalli in modo da evitare sovrapposizioni e garantire un controllo regolare senza conflitti. Ecco come è stato impostato il `crontab`:
 
-0,5,10,15,20,25,30,35,40,45,50,55 * * * * /nfs_share/script/monitoring/check_server.sh 
-2,7,12,17,22,27,32,37,42,47,52,57 * * * * /nfs_share/script/monitoring/esito_check_server.sh 
-4,9,14,19,24,29,34,39,44,49,54,59 * * * * /nfs_share/script/monitoring/check_server_KO.sh
+- 0,5,10,15,20,25,30,35,40,45,50,55 * * * * /nfs_share/script/monitoring/check_server.sh 
+- 2,7,12,17,22,27,32,37,42,47,52,57 * * * * /nfs_share/script/monitoring/esito_check_server.sh 
+- 4,9,14,19,24,29,34,39,44,49,54,59 * * * * /nfs_share/script/monitoring/check_server_KO.sh
 
 ### Esempio di funzionamento del `crontab`
 
